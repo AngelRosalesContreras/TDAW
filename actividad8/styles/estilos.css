@@ -1,0 +1,179 @@
+h1,h2,h3,h4,footer{
+   font-family: Georgia, Cambria, "Times New Roma", serif;
+}
+
+body{
+  font-family: Georgia,Cambria, "Times New Roman",serif;
+  font-size: 100%;
+  background-image: url(../images/background-pattern.png);
+  background-repeat: repeat;
+
+}
+
+article{
+  margin-top: 1em;
+  margin-right: 4em;
+  margin-bottom: 1em;
+  margin-left: 4em;
+  padding: 0.5em;
+}
+
+h1{
+  font-size: 0.75rem;
+}
+
+h2{
+  font-size: 1rem;
+}
+h3{
+  font-size: 1em;
+}
+
+h1{
+  background-image: url(../images/header-background.png);
+  background-repeat: repeat;
+}
+
+h1 img{
+  margin-left: 6em;
+}
+
+.navegador{
+  background-color: rgb(33, 54, 66);
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navegador ul{
+  padding-right: 3.25rem;
+}
+
+.navegador ul li{
+  list-style: none;
+  display: inline;
+  padding: 0.5em;
+  font-size: 0.75rem;
+}
+
+.menu {
+  background-color: rgb(221, 220, 220);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+}
+
+.menu ul{
+  margin-left: 4em;
+}
+.menu ul li{
+  list-style: none;
+  display: inline;
+  padding: 0.5em;
+  font-size: 1rem;
+}
+
+a:link{
+  color: rgb(71, 179, 215);
+}
+
+a:visited{
+  color: rgb(71, 179, 215);
+}
+
+
+.autor{
+  background-color: rgb(255, 255, 255);
+}
+
+.autor img {
+  padding: 0.25em;
+  border: solid 1.5px #999999;
+  display:block;
+  margin:auto;
+}
+
+.autor h2{
+  text-align: center;
+  font-size: 1rem;
+}
+
+section{
+  border: solid 2px #000000;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+section h3{
+  Background-image: url(../images/header-background.png);
+  color: white;
+  padding: 0.5em;
+}
+
+section p{
+  padding: 0.5em;
+}
+
+section p em{
+  color: #728B96;
+  font-style: italic;
+}
+
+.contacto{
+  background-color: rgb(33, 54, 66);
+  margin: 0;
+  height: 25px;
+  display: flex;
+  align-items: center;
+
+}
+
+.contacto li{
+  background-color: rgb(221, 220, 220);
+  list-style: none;
+  display: flex;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  margin-left: 0.75em;
+  height: 18px;
+  width: 55px;
+}
+
+
+a[href^="mailto"] {
+  background: url(../images/email.png) no-repeat 0 3px;
+  padding-left: 1em;
+  font-weight: bold;
+
+}
+
+a[href^="tel"] {
+  background: url(../images/call.png) no-repeat 0 3px;
+  padding-left: 1em;
+  font-weight: bold;
+}
+
+a[class*="Edit"] {
+  background: url(../images/edit.png) no-repeat 0 3px;
+  padding-left: 1.75em;
+}
+
+a[class*="Flag"] {
+  background: url(../images/flag.png) no-repeat 0 3px;
+  padding-left: 1.75em;
+}
+
+footer{
+  margin-top: 1em;
+  margin-right: 4em;
+  margin-bottom: 1em;
+  margin-left: 4em;
+  padding: 0.5em;
+  background-color: rgb(33, 54, 66);
+  color: white;
+}
